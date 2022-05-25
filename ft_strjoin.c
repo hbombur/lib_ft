@@ -6,13 +6,13 @@
 /*   By: hbombur <hbombur@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/16 15:13:21 by hbombur           #+#    #+#             */
-/*   Updated: 2021/10/20 14:48:48 by hbombur          ###   ########.fr       */
+/*   Updated: 2022/03/27 17:19:29 by hbombur          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strjoin(char const	*s1, char const	*s2)
+char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char	*dst;
 	size_t	l;

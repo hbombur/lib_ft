@@ -6,13 +6,13 @@
 /*   By: hbombur <hbombur@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/08 12:36:24 by hbombur           #+#    #+#             */
-/*   Updated: 2021/10/10 15:16:14 by hbombur          ###   ########.fr       */
+/*   Updated: 2022/03/27 17:18:42 by hbombur          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memset(void	*b, int	c, size_t	len)
+void	*ft_memset(void *b, int c, size_t len)
 {
 	unsigned char	s;
 	unsigned char	*bb;

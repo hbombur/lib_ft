@@ -6,13 +6,13 @@
 /*   By: hbombur <hbombur@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/08 14:10:34 by hbombur           #+#    #+#             */
-/*   Updated: 2021/10/24 13:00:01 by hbombur          ###   ########.fr       */
+/*   Updated: 2022/03/27 17:18:26 by hbombur          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memcpy(void	*dst, const void	*src, size_t	n)
+void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
 	unsigned char	*dst1;
 	const char		*src1;

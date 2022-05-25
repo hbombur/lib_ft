@@ -6,13 +6,13 @@
 /*   By: hbombur <hbombur@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/08 14:10:43 by hbombur           #+#    #+#             */
-/*   Updated: 2021/10/16 13:57:09 by hbombur          ###   ########.fr       */
+/*   Updated: 2022/03/27 17:18:34 by hbombur          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memmove(void	*dst, const void	*src, size_t	len)
+void	*ft_memmove(void *dst, const void *src, size_t len)
 {
 	unsigned char	*dst1;
 	unsigned char	*src1;

@@ -6,13 +6,13 @@
 /*   By: hbombur <hbombur@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/08 12:37:08 by hbombur           #+#    #+#             */
-/*   Updated: 2021/10/10 18:00:23 by hbombur          ###   ########.fr       */
+/*   Updated: 2022/03/27 17:19:56 by hbombur          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "stdlib.h"
 
-size_t	ft_strlen(const char	*c)
+size_t	ft_strlen(const char *c)
 
 {
 	size_t	i;

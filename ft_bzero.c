@@ -6,13 +6,13 @@
 /*   By: hbombur <hbombur@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/08 12:38:05 by hbombur           #+#    #+#             */
-/*   Updated: 2021/10/27 11:26:08 by hbombur          ###   ########.fr       */
+/*   Updated: 2022/03/27 17:17:27 by hbombur          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_bzero(void	*s, size_t	n)
+void	*ft_bzero(void *s, size_t n)
 {
 	size_t			i;
 	unsigned char	*c;

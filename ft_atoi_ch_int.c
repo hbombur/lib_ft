@@ -1,18 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_atoi.c                                          :+:      :+:    :+:   */
+/*   ft_atoi_ch_int.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hbombur <hbombur@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/10 19:56:46 by hbombur           #+#    #+#             */
-/*   Updated: 2022/03/27 17:17:23 by hbombur          ###   ########.fr       */
+/*   Updated: 2022/03/27 17:14:15 by hbombur          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_atoi(const char *str)
+// дописать функцию проверки принадлежности к типу данных
+
+static int	check_num(int num)
+{
+	if (num < -2147483648 && num > 2147483647)
+		return (0);
+	else
+		return (num);
+}
+
+int	ft_atoi_ch_int(const char *str)
 {
 	int	i;
 	int	num;
@@ -37,5 +47,7 @@ int	ft_atoi(const char *str)
 		i++;
 	}
 	num = num * min;
+	if (check_num(num) == 0)
+		return (0);
 	return (num);
 }

@@ -6,13 +6,13 @@
 /*   By: hbombur <hbombur@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/17 14:19:29 by hbombur           #+#    #+#             */
-/*   Updated: 2021/10/17 16:29:22 by hbombur          ###   ########.fr       */
+/*   Updated: 2022/03/27 17:23:12 by hbombur          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static size_t	ft_checkmin(int	i)
+static size_t	ft_checkmin(int i)
 {
 	size_t	l;
 
@@ -32,7 +32,7 @@ static size_t	ft_checkmin(int	i)
 	return (l);
 }
 
-char	*ft_itoa(int	n)
+char	*ft_itoa(int n)
 {
 	char	*ret;
 	size_t	l;

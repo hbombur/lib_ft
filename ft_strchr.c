@@ -6,21 +6,21 @@
 /*   By: hbombur <hbombur@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/08 12:36:56 by hbombur           #+#    #+#             */
-/*   Updated: 2021/10/16 14:11:53 by hbombur          ###   ########.fr       */
+/*   Updated: 2022/05/25 19:12:42 by hbombur          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strchr(const char	*s, int	c)
+char	*ft_strchr(const char *s, int c)
 {
-	int		i;
 	char	b;
 	char	*str;
 
-	i = 0;
 	b = (unsigned char)c;
 	str = (char *) s;
+	if (str == 0)
+		return (NULL);
 	while (*str != '\0')
 	{
 		if (*str == b)
@@ -29,5 +29,5 @@ char	*ft_strchr(const char	*s, int	c)
 	}
 	if (*str == b)
 		return (str);
-	return (0);
+	return (NULL);
 }
